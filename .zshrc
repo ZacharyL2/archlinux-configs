@@ -4,7 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/lizq/.oh-my-zsh"
 # export EDITOR=/usr/bin/vim
-alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias setproxy="export ALL_PROXY=http://127.0.0.1:12333"
 alias unsetproxy="unset ALL_PROXY"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -71,7 +71,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions z jsontools)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions z)
 
 source $ZSH/oh-my-zsh.sh
 
