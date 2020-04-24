@@ -1,4 +1,4 @@
-# archlinux 衍生发行版配置
+# 自用 archlinux 相关软件配置文件
 
 ## 进度
 
